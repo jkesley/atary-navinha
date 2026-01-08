@@ -2,7 +2,7 @@
 
 Jogo arcade inspirado nos clássicos do Atari, desenvolvido com **HTML5 Canvas, CSS e JavaScript puro**, focado em lógica de jogos, colisões, progressão de dificuldade e persistência de dados no navegador.
 
-🔗 **Demo online:** https://jkeslei.github.io/
+🔗 **Demo online:** [https://jkeslei.github.io/](https://jkesley.github.io/atary-navinha/)
 
 ---
 
