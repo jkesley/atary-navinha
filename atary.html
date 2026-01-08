@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Navinha Atari</title>
+  <link rel="stylesheet" href="CSS/atary.css">
+</head>
+<body>
+
+<h2>👾 NAVINHA ATARI</h2>
+
+<div id="hud">
+  Pontos: <span id="score">0</span> |
+  <span id="record">Recorde: 0</span>
+  <span id="champion">---</span>
+</div>
+
+<canvas id="game" width="500" height="400"></canvas>
+
+<div id="gameOver" class="hidden">
+  <h3>GAME OVER</h3>
+  <p>Sua pontuação: <span id="finalScore"></span></p>
+  <input type="text" id="playerName" maxlength="3" placeholder="ABC">
+  <button onclick="saveScore()">Salvar</button>
+</div>
+
+<script src="JS/atary.js"></script>
+</body>
+</html>
+
